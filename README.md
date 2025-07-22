@@ -4,13 +4,6 @@ This repository contains the web development projects completed as part of my **
 
 ---
 
-## 🔗 Hosted Projects
-
-**📂 Project Index Page:**  
-https://adheebabdulla007.github.io/CODSOFT/info.html
-
----
-
 ### ✅ Task 1 – Landing Page  
 🌐 [Live Demo](https://adheebabdulla007.github.io/CODSOFT/landing-page/index.html)  
 🛠️ **Tech Stack:** HTML, CSS, JavaScript

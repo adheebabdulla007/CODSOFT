@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WebWave Creative Studio</title>
+  <link rel="icon" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo-wrap">
+        <img id="site-logo" src="logo-light.png" class="logo-img" alt="WebWave Logo">
+        <h1 class="logo-text">WebWave</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" aria-label="Toggle Theme">
+            <i id="theme-icon" data-lucide="moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero" data-aos="fade-in">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Digital Solutions, Bold Results</h2>
+        <p>We design, code, and optimize beautiful, scalable websites with precision and creativity.</p>
+        <a href="#contact" class="btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about" data-aos="fade-up">
+    <div class="container">
+      <h2>About Us</h2>
+      <p class="about">
+        We are WebWave a digital creative agency blending innovation and simplicity. We specialize in clean design, fast performance, and user-first digital experiences. Whether you're a startup or a brand looking to scale, we deliver solutions that matter.
+        From custom websites to full-stack platforms, we bring ideas to life through technology and design. We believe in long-term partnerships, meaningful UX, and clear communication.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 data-aos="fade-up">Projects</h2>
+      <div class="project-grid">
+
+        <div class="project-card" data-aos="zoom-in">
+          <img src="abusive.jpg" alt="Abusive Project">
+          <div class="card-content">
+            <h3>Abusive Language Detection</h3>
+            <span class="timeline">Jan – Apr 2025</span>
+            <ul>
+              <li>Speech-to-text ML content filter</li>
+              <li>Python, scikit-learn</li>
+              <li>Real dataset evaluation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <img src="stationery.jpg" alt="Stationery">
+          <div class="card-content">
+            <h3>College Stationery Store</h3>
+            <span class="timeline">Feb – May 2024</span>
+            <ul>
+              <li>Responsive frontend</li>
+              <li>Login, MySQL backend</li>
+              <li>HTML, CSS, JS</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <img src="quote.jpg" alt="DevHire">
+          <div class="card-content">
+            <h3>Quote Generator</h3>
+            <span class="timeline">June 2025</span>
+            <ul>
+              <li>React + Express full stack</li>
+              <li>Authentication, API</li>
+              <li>Modern design</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Let’s Talk</h2>
+      <p style="font-size: 20px;">Got a project in mind? Let's bring it to life.</p>
+      <p style="margin-top: 15px; font-size: 20px;">
+       We’re always open to exciting new collaborations and challenges.
+      </p>
+      <a href="mailto:hello@webwave.com" class="btn btn-dark" style="margin-top: 20px;">Email Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 WebWave. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
